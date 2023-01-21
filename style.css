@@ -1,0 +1,60 @@
+*{
+   background: #E5E5E5;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 150%;
+
+}
+/*estilizar a logo agora*/
+
+.logoAlura{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main{
+    display: flex;  /*o flex é para os botões ficarem um ao lado do outro*/
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+
+}
+
+::placeholder {color: #0A3871}
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensagem{
+    background: white;
+    background-image: url(/imagens/boneco.png);
+    background-repeat: no-repeat; /*para a imegem parar de repetir*/
+    border: none;
+    border-radius: 24px;
+    color:#0A3871 ;
+    margin-left: 98px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.infos{
+    color: gray;
+    font-size: small;
+}
